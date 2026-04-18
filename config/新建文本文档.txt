@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+import os
+import datetime
+
+# ================= 基础路径配置 =================
+
+# 1. QMT 终端路径 (保持不变，确保 xtquant 能连接)
+# 请再次确认此路径是否完全正确，这是连接交易接口的关键
+QMT_PATH = r"C:\迅投QMT交易终端 华林证券模拟版\userdata_mini"
+ACCOUNT_ID = "10100000030"
+
+# 2. 项目根目录 (自动获取，无需修改)
+# 这会自动定位到 C:\...\mpython\AlphaPilot_Pro
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(CURRENT_DIR))
+
+# 3. 【关键修改】信号输入目录 -> 指向你的桌面旧目录
+# 这样程序就会去读桌面上的信号文件，而不需要移动你的生成器
+SIGNAL_DIR_INPUT = r"C:\Users\Administrator\Desktop\ESC\signals"
+
+# 4. 信号归档目录 -> 建议也放在桌面同级，避免跨目录移动文件报错
+# 如果桌面上没有 processed 文件夹，程序会自动创建
+SIGNAL_DIR_PROCESSED = os.path.join(os.path.dirname(SIGNAL_DIR_INPUT), "processed")
+
+# 5. 项目内部目录 (日志、状态数据等仍保存在 mpython 项目内)
+DATA_DIR = os.path.join(BASE_DIR, "data")
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+
+# 6. 状态文件路径 (保存在项目内部)
+STATE_FILE = os.path.join(DATA_DIR, "yesterday_holdings.json")
+
+# ================= 策略参数配置 =================
+
+# --- [竞价策略] ---
+ELITE_PROFIT_THRESHOLD = 0.06  # 浮盈 > 6% 入选精英名单
+AUCTION_SELL_RATIO = 0.97      # 竞价卖出报价为现价 97%
+
+# --- [火箭加仓策略] ---
+INITIAL_CAPITAL_RATIO = 0.5    # 初始仓位比例
+MAX_STOCK_COUNT = 20           # 最大持仓数
+LEVEL_1_THRESHOLD = 9000.0     # 一级火箭触发金额
+LEVEL_2_THRESHOLD = 18000.0    # 二级火箭触发金额
+REPEAT_PROTECT_SECONDS = 5000  # 重复下单保护时间 (秒)
+MIN_ORDER_VALUE = 10000        # 最小下单金额
+
+# --- [风控策略] ---
+STOP_LOSS_RATIO = 0.045        # 硬止损阈值 4.5%
+STOP_LOSS_CHECK_INTERVAL = 5   # 每 5 次循环检查一次止损
+
+# --- [系统设置] ---
+HEARTBEAT_INTERVAL = 3         # 主循环休眠时间 (秒)

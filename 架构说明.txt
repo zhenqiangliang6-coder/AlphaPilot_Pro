@@ -1,0 +1,27 @@
+C:\迅投QMT交易终端 华林证券模拟版\mpython\
+└── AlphaPilot_Pro/
+    ├── config/
+    │   ├── __init__.py
+    │   └── settings.py
+    ├── core/
+    │   ├── __init__.py
+    │   ├── trader_engine.py
+    │   ├── data_feed.py
+    │   └── state_manager.py
+    ├── strategies/
+    │   ├── __init__.py
+    │   ├── auction_strategy.py
+    │   ├── signal_strategy.py
+    │   └── rocket_boost.py
+    ├── risk/
+    │   ├── __init__.py
+    │   └── stop_loss.py
+    ├── utils/
+    │   ├── __init__.py
+    │   ├── logger.py
+    │   └── helpers.py
+    ├── logs/           (程序运行后会自动创建)
+    ├── data/           (程序运行后会自动创建)
+    ├── signals/        (你需要手动把信号文件放这里，或者修改配置指向别处)
+    ├── signals_processed/ (程序运行后会自动创建)
+    └── main.py         (双击运行这个，或在 QMT 里加载这个)

@@ -1,0 +1,95 @@
+{
+  "last_update": "2026-04-14 18:59:51",
+  "watchlist": {
+    "301658.SZ": {
+      "name": "首航新能",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-15",
+      "trigger_price": 42.6,
+      "trigger_volume_ratio": 1.13,
+      "status": "waiting",
+      "delay_days": 2
+    },
+    "002475.SZ": {
+      "name": "立讯精密",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-20",
+      "trigger_price": 58.72,
+      "trigger_volume_ratio": 1.43,
+      "status": "waiting",
+      "delay_days": 5
+    },
+    "300868.SZ": {
+      "name": "杰美特",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-16",
+      "trigger_price": 69.28,
+      "trigger_volume_ratio": 2.39,
+      "status": "waiting",
+      "delay_days": 3
+    },
+    "002445.SZ": {
+      "name": "中南文化",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-15",
+      "trigger_price": 3.44,
+      "trigger_volume_ratio": 1.33,
+      "status": "waiting",
+      "delay_days": 2
+    },
+    "600722.SH": {
+      "name": "金牛化工",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-17",
+      "trigger_price": 14.55,
+      "trigger_volume_ratio": 1.61,
+      "status": "waiting",
+      "delay_days": 4
+    },
+    "002828.SZ": {
+      "name": "贝肯能源",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-16",
+      "trigger_price": 12.89,
+      "trigger_volume_ratio": 3.21,
+      "status": "waiting",
+      "delay_days": 3
+    },
+    "000510.SZ": {
+      "name": "新金路",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-16",
+      "trigger_price": 14.49,
+      "trigger_volume_ratio": 0.62,
+      "status": "waiting",
+      "delay_days": 3
+    },
+    "000912.SZ": {
+      "name": "泸天化",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-17",
+      "trigger_price": 5.2,
+      "trigger_volume_ratio": 0.57,
+      "status": "waiting",
+      "delay_days": 4
+    },
+    "600821.SH": {
+      "name": "金发科技",
+      "action": "BUY",
+      "signal_date": "2026-04-13",
+      "target_date": "2026-04-17",
+      "trigger_price": 8.17,
+      "trigger_volume_ratio": 2.67,
+      "status": "waiting",
+      "delay_days": 4
+    }
+  }
+}

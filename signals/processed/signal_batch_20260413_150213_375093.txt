@@ -1,0 +1,12 @@
+{"ts": "2026-04-13 15:02:13", "code": "600989.SH", "name": "宝丰能源", "action": "BUY", "price": 30.12, "volume_ratio": 0.21, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "003035.SZ", "name": "南网能源", "action": "BUY", "price": 7.63, "volume_ratio": 0.66, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "002202.SZ", "name": "金风科技", "action": "BUY", "price": 24.12, "volume_ratio": 0.39, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "300037.SZ", "name": "新宙邦", "action": "BUY", "price": 63.36, "volume_ratio": 0.93, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "300207.SZ", "name": "欣旺达", "action": "BUY", "price": 28.93, "volume_ratio": 1.53, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "300953.SZ", "name": "震裕科技", "action": "SELL", "price": 182.74, "volume_ratio": 1.05, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "600989.SH", "name": "宝丰能源", "action": "BUY", "price": 30.14, "volume_ratio": 0.68, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "003035.SZ", "name": "南网能源", "action": "BUY", "price": 7.64, "volume_ratio": 1.02, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "002202.SZ", "name": "金风科技", "action": "BUY", "price": 24.14, "volume_ratio": 0.58, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "300037.SZ", "name": "新宙邦", "action": "BUY", "price": 63.38, "volume_ratio": 0.98, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "300207.SZ", "name": "欣旺达", "action": "BUY", "price": 28.94, "volume_ratio": 1.68, "source": "AlphaPilot_Email"}
+{"ts": "2026-04-13 15:02:13", "code": "300953.SZ", "name": "震裕科技", "action": "SELL", "price": 182.53, "volume_ratio": NaN, "source": "AlphaPilot_Email"}
