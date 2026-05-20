@@ -24,7 +24,7 @@ from html import unescape
 
 # ================= 【配置区域】 =================
 EMAIL_USER = "497720537@qq.com"
-EMAIL_PASS = "zzdqngmxfudubgea"  # ⚠️ 请确保这是授权码
+EMAIL_PASS = "*****xfudubgea"  # ⚠️ 请确保这是授权码
 IMAP_SERVER = "imap.qq.com"
 
 # 路径配置
